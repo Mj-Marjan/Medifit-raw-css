@@ -182,3 +182,62 @@
     border: none;
     border-bottom: 2px solid #8F7D6A;
 }
+
+/* health-product */
+.health-product h1{
+    text-align: center;
+    color: #503217;
+    font-size: 48px;
+    font-weight: 500;
+    padding: 50px 0px 20px 0px;
+}
+
+.health-products{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 50px 70px;
+}
+.img-health{
+    position: relative;
+    display: inline-block;
+}
+.img-health p{
+    background: #503217;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 4px 8px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 400;
+    justify-content: start;
+    
+}
+.img-health img{
+    width: 103px;
+    height: 174px;
+}
+.img-health{
+    text-align: center;
+    background: #F2F2F2;
+    padding: 5px 60px;
+    border-radius: 10px;
+    border: 1px solid #8F7D6A1A;
+}
+.health-card h1{
+    color: #503217;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: -20px;
+    text-align: start;
+    /* margin: 10px 0px; */
+}
+.health-card h4{
+    font-size: 18px;
+    color: #8F7D6A;
+    font-weight: 400;
+    margin-top: -30px;
+}

@@ -8,14 +8,18 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0px 30px;
+    margin: -20px 30px;
 }
 
 .logo{
     display: flex;
     align-items: center;
 }
-
+.logo h1{
+    color: #503217;
+    font-size: 34px;
+    font-weight: 500;
+}
 .nav-links ul{
     display: flex;
     gap: 20px;
@@ -25,8 +29,8 @@
 }
 .nav-links ul li a{
     text-decoration: none;
-    color: black;
-    font-weight: 500;
+    color: #503217;
+    font-weight: 400;
     font-size: 18px;
 }
 
@@ -36,4 +40,55 @@
 }
 .login-sign ul li{
     list-style: none;
+}
+.login-sign ul li a{
+    text-decoration: none;
+    color: #503217;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.banner{
+    background: #E8E6DE;
+}
+.banner-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 100px;
+    padding: 50px 0px;
+}
+.banner-text h1{
+    color: #503217;
+    font-size: 80px;
+    font-weight: 500;
+    line-height: 1;
+}
+.banner-text p{
+    color: #503217;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: -30px;
+}
+.banner-img img{
+    width: 500px;
+    height: 556px;
+}
+
+.btn{
+    display: inline-block;
+    background: #503217;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.banner-clip{
+    margin-top: -120px;
+    margin-left: -100px;
+    width: 324px;
+    height: 312px;
 }

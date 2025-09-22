@@ -92,3 +92,50 @@
     width: 324px;
     height: 312px;
 }
+
+.category{
+    background-color: #8F7D6A1A;
+    margin-top: -32px;
+}
+.category h1{
+    text-align: center;
+    color: #503217;
+    font-size: 48px;
+    font-weight: 500;
+    padding: 50px 0px 20px 0px;
+}
+.category-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 50px;
+}
+.card{
+   border: 1px solid #8F7D6A1A;
+   padding: 20px;
+   border-radius: 10px;
+   text-align: center;
+}
+
+.card img{
+    width: 102px;
+    height: 102px;
+    border-radius: 50%;
+    background-color: #fff;
+    padding: 5px;
+    border: 1px solid #503217;
+}
+.card h3{
+    color: #503217;
+    font-size: 18px;
+    font-weight: 500;
+    /* margin: 10px 0px; */
+}
+.card p{
+    color: #503217;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 10px;
+    line-height: 1.1;
+}

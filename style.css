@@ -294,6 +294,7 @@
 .collection{
     background-color: #E8E6DE;
     margin-top: -30px;
+    padding-bottom: 30px;
 }
 .store-collection h1{
     text-align: center;
@@ -343,3 +344,104 @@
     align-self: flex-start;
     margin-left: 35px;
 }
+/* "email-section */
+.email-section{
+    display: flex;
+    margin: 0px 100px 70px 100px;
+    justify-content: space-between;
+    gap: 20px;
+}
+.email-img img{
+    width: 535px;
+    height: 462px;
+    border-radius: 10px;
+}
+.email-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 50px;
+    background: #F2F2F2;
+    border-radius: 10px;
+
+}
+.email-text p{
+    margin-top: 40px;
+    font-size: 24px;
+    font-weight: 500;
+    color: #6C543E;
+}
+.email-text h2{
+    font-size: 48px;
+    font-weight: 500;
+    color: #503217;
+    margin: 20px 0px;
+    text-align: center;
+}
+.email-input{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.email-input input{
+   height: 48px;
+   width: 258px;
+    border-radius: 10px;
+    border: 1px solid #EBE9E0;
+    background-color: #EBE9E0;
+    font-size: 16px;
+    font-weight: 200;
+    outline: none;
+}
+.email-input input::placeholder{
+    padding: 10px;
+    color: #8F7D6A;
+    font-size: 16px;
+    font-weight: 200;
+}
+.email-btn{
+    height: 48px;
+    width: 150px;
+    border-radius: 10px;
+    border: none;
+    background: #503217;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.testimonials{
+    background: #eeede7;
+    padding: 50px 0px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+.testimonials h1{
+    font-size: 48px;
+    font-weight: 500;
+    color: #503217;
+    margin-bottom: 40px;
+}
+.testimonials p{
+    display: inline-block;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #8F7D6A;
+    background-color: #F2F2F2;
+    padding: 30px 60px;
+}
+.testimonials i{
+    color: #8F7D6A;
+    font-size: 50px;
+    position: absolute;
+    left: 50px;
+    top: 210px;
+    /* top: 50px; */
+    /* left: 20px; */
+}
+
